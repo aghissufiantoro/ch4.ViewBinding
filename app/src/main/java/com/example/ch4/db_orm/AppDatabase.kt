@@ -14,18 +14,14 @@ interface makananDAO{
     @Insert
     suspend fun insertUser(makanan: Makanan)
 
-    @Query("SELECT * FROM Makanan WHERE id = :id")
-    suspend fun getMakananById(id: String): Makanan
 }
 
 
 val db = RoomDatabaseBuilder(
-    applcationContext,
+    DEFAULT_BUFFER_SIZE,
     AppDatabase::class.java, "my-database"
-).build()
+)
 
 fun RoomDatabaseBuilder(applcationContext: Any, java: Class<AppDatabase>, s: String): Any {
     TODO("Not yet implemented")
 }
-
-val makanan = Makanan(detailMenu)

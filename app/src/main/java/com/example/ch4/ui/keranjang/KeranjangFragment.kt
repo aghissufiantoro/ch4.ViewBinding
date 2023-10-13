@@ -10,7 +10,7 @@ import com.example.ch4.databinding.FragmentKeranjangBinding
 
 class KeranjangFragment : Fragment() {
 
-    private var _binding: FragmentKeranjangBinding = null
+    private var _binding: FragmentKeranjangBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
