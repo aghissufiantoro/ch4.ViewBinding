@@ -1,4 +1,4 @@
-package com.example.ch4.ui.notifications
+package com.example.ch4.ui.akun
 
 import android.os.Bundle
 import android.view.LayoutInflater

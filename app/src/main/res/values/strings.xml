@@ -27,4 +27,11 @@
     <string name="sate_ayam">Sate Ayam</string>
     <string name="rp_19_000">Rp 19,000</string>
     <string name="keranjang">Keranjang</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_any_account_register">Don\'t have any account? Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="no_telepon">No.Telepon</string>
+    <string name="registrasi">Registrasi</string>
 </resources>

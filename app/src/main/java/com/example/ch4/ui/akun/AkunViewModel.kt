@@ -1,4 +1,4 @@
-package com.example.ch4.ui.notifications
+package com.example.ch4.ui.akun
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
