@@ -34,4 +34,5 @@
     <string name="email">Email</string>
     <string name="no_telepon">No.Telepon</string>
     <string name="registrasi">Registrasi</string>
+    <string name="judul_makanan">Judul Makanan</string>
 </resources>

@@ -1,13 +1,17 @@
 package com.example.ch4.db_orm
 
 import androidx.room.Insert
-import androidx.room.Query
 import androidx.room.RoomDatabase
-
 
 
 abstract class AppDatabase : RoomDatabase() {
     abstract fun makananDAO(): Makanan
+
+    companion object {
+        fun getInstance(app: App) {
+
+        }
+    }
 }
 
 interface makananDAO{

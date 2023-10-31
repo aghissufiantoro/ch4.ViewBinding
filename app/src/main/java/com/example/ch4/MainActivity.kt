@@ -1,21 +1,24 @@
 package com.example.ch4
 
+import android.os.Build
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import android.view.LayoutInflater
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.ch4.databinding.ActivityMainBinding
+import com.example.ch5.R
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class  MainActivity : AppCompatActivity() {
+abstract class  MainActivity<ActivityMainBinding>(private var binding: ActivityMainBinding) : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-
+    @RequiresApi(Build.VERSION_CODES.S)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        val inflater = LayoutInflater.from(createContext(layoutInflater))
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
