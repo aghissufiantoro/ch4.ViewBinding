@@ -1,8 +1,7 @@
 package com.example.ch4
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.ch4.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.ch4.databinding.DetailActivityBinding
 
 class DetailActivity : AppCompatActivity() {
